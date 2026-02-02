@@ -1,0 +1,18 @@
+packages:
+  - packages/**
+
+catalog:
+  '@tamagui/animations-motion': 2.0.0-rc.0
+  '@tamagui/colors': 2.0.0-rc.0
+  '@tamagui/config': 2.0.0-rc.0
+  '@tamagui/core': 2.0.0-rc.0
+  '@tamagui/themes': 2.0.0-rc.0
+  '@types/react': ~19.2.2
+  '@typescript/native-preview': 7.0.0-dev.20260202.1
+  tamagui: 2.0.0-rc.0
+  turbo: ^2.8.1
+  typescript: ^5.9.2
+
+catalogMode: strict
+
+cleanupUnusedCatalogs: true

@@ -1,0 +1,29 @@
+{
+    "name": "@my-proj/tamagui-config",
+    "private": true,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        },
+        "./*": {
+            "types": "./dist/*.d.ts",
+            "default": "./dist/*.js"
+        }
+    },
+    "scripts": {
+        "dev": "tsgo --watch",
+        "build": "tsgo"
+    },
+    "dependencies": {
+        "@tamagui/animations-motion": "catalog:",
+        "@tamagui/colors": "catalog:",
+        "@tamagui/config": "catalog:",
+        "@tamagui/core": "catalog:",
+        "@tamagui/themes": "catalog:",
+        "tamagui": "catalog:"
+    },
+    "devDependencies": {
+        "@my-proj/typescript-config": "workspace:*"
+    }
+}

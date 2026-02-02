@@ -1,0 +1,14 @@
+{
+    "name": "tsgo-repro",
+    "private": true,
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev"
+    },
+    "devDependencies": {
+        "@typescript/native-preview": "catalog:",
+        "turbo": "catalog:",
+        "typescript": "catalog:"
+    },
+    "packageManager": "pnpm@10.28.2"
+}

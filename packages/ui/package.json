@@ -1,0 +1,28 @@
+{
+    "name": "@my-proj/ui",
+    "private": true,
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        },
+        "./*": {
+            "types": "./dist/*.d.ts",
+            "default": "./dist/*.js"
+        }
+    },
+    "scripts": {
+        "dev": "tsgo --watch",
+        "build": "tsgo"
+    },
+    "devDependencies": {
+        "@my-proj/tamagui-config": "workspace:*",
+        "@my-proj/typescript-config": "workspace:*",
+        "@types/react": "catalog:"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*",
+        "tamagui": "*"
+    }
+}
