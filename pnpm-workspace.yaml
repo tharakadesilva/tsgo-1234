@@ -10,7 +10,7 @@ catalog:
   '@types/react': ~19.2.2
   '@typescript/native-preview': 7.0.0-dev.20260202.1
   tamagui: 2.0.0-rc.0
-  turbo: ^2.8.1
+  turbo: ^2.9.14
   typescript: ^5.9.2
 
 catalogMode: strict
